@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .index {
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 102vh;
+    animation: transitionIn 0.75s
+  
+  }
+  
+  .index1 {
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 200%;
+    animation: transitionIn 0.75s
+  }
+  @keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-5deg);
+    }
+  }
+  
+  
+  .nav-item {
+    margin-top: 1%;
+    font-family: 'Koulen', cursive;
+    font-size: 1.1rem;
+  
+  
+  }
+  
+  .nav-item :hover {
+    color: black;
+    text-shadow: 2px 2px 2px rgba(255, 0, 208, 0.784);
+  }
+  
+  .nav-link {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(10, 237, 188, 0.655);
+    text-decoration: none;
+  }
+  
+  .titulo {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Rubik Glitch', cursive;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(10, 237, 188, 0.655);
+    margin-top: 6%;
+    font-size: 4.5rem;
+    animation-duration: 1s;
+    animation-name: aparecer;
+  }
+  
+  .titulo1{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Rubik Glitch', cursive;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgba(255, 0, 208, 0.784);
+    animation-duration: 1s;
+    animation-name: aparecer;}
+  
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+      font-size: 5.5rem;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  
+  }
+  .sweet{
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgba(255, 0, 208, 0.784);
+    font-family: 'Koulen', cursive;
+  }
+  .swee{
+    font-family: 'Koulen', cursive;
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px rgba(7, 241, 179, 0.878);
+  
+  }
+  .titulo :hover {
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 5px rgba(255, 141, 2, 0.677);
+  }
+  
+  .pie {
+    font-family: 'Koulen', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(36, 182, 143, 0.474);
+    font-size: .9rem;
+    margin-top: 23.1%;
+    padding-bottom: 0;
+  }
+  
+  .pie2 {
+    font-family: 'Koulen', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(36, 182, 143, 0.474);
+    font-size: .9rem;
+    margin-top: .5%;
+  
+  }
+  
+  .pie3 {
+    font-family: 'Koulen', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(36, 182, 143, 0.474);
+    font-size: .9rem;
+  }
+  
+  .pie4 {
+    font-family: 'Koulen', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(36, 182, 143, 0.474);
+    font-size: .9rem;
+    margin-top: 11.6%;
+  
+  }
+  
+  .carousel {
+    margin-top: 1%;
+    font-family: 'Koulen', cursive;
+    text-shadow: 2px 2px 2px rgb(255, 141, 2);
+  
+  }
+  
+  .tit {
+    font-size: 2rem;
+  }
+  
+  .carousel-caption {
+    font-size: 1.5rem;
+  }
+  
+  .col {
+    list-style: none;
+    width: auto;
+    justify-content: center;
+  }
+  .demodemo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+   
+  }
+  /*PRUEBA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+  .item {
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(255, 221, 252);
+    text-shadow: 2px 2px 2px rgb(255, 141, 2);
+    font-family: 'Koulen', cursive;
+    font-size: 1.5rem;
+  }
+  
+  .item-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(255, 2, 221);
+  }
+  
+  .item-image {
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 15px;
+  }
+  
+  .item-details>.item-price {
+    margin: 0;
+  }
+  
+  .shopping-cart-items {
+    padding: 20px 0px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(255, 2, 221);
+  }
+  
+  .shopping-cart-header {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .shopping-cart-image {
+    max-width: 80px;
+    border-radius: 20px;
+  }
+  
+  .shopping-cart-quantity-input {
+    max-width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .shopping-cart-total {
+    min-height: 96px;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(255, 2, 221);
+  }
+  
+  .modal {
+    font-family: 'Koulen', cursive;
+  }
+  
+  .modal-title {
+    color: black;
+    margin-left: 25%;
+  
+  }
+  
+  .modal-body {
+    color: black;
+    text-align: center;
+  }
+  
+  .mb-0 {
+    font-size: 1.5rem;
+  }
+  
+  .shopping-cart {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(255, 12, 186);
+  }
+  
+  
+  .btn{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(255, 12, 186);
+  }
+  .asd{
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgb(255, 12, 186);
+    padding: 1%;
+    border:rgb(0, 0, 0) solid;
+    border-radius: 7px;
+  }
+  .close{
+    background-color:white;
+  }
+  .toast {
+    background-color: #00000096;
+    font-family: 'Koulen', cursive;
+  }
+  
+  .text-center {
+    font-family: 'Koulen', cursive;
+  }
+  
+  .row {
+    font-family: 'Koulen', cursive;
+  }
+
+  /*media query index*/
+  
+  @media screen and (max-width:480px) {
+    .titulo {
+      font-size: 3rem;
+    }
+  
+    .carousel-indicators {
+      display: none;
+    }
+  
+  }
+  
+  /*media query avatar*/
+  
+  @media screen and (max-width:768px) {
+    .ima {
+      width: 200px;
+      height: 150px;
+    }
+  }
+  
+  /*FORMULARIO*/
+  .index1 {
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 120vh;
+  
+  }
+  
+  form {
+    font-family: 'Koulen', cursive;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 2rem;
+    margin-top: 10%;
+    padding-right: 2%;
+    color: white;
+    font-size: 1.125rem;
+  }
+  
+  form button {
+    background-color: #000000;
+    font-family: 'Koulen', cursive;
+    border-radius:0.5px;
+    justify-content: center;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  form button:hover {
+    background-color: white;
+    color: #000000;
+    font-weight: bolder;
+  }
+  
+  form input {
+    text-align: center;
+    margin: 0.3rem;
+    padding: 0.3rem;
+    border-radius: 1px;
+    transition: all 2s;
+    width: 75%;
+  }
+  
+  form input:focus {
+    width: 100%;
+    font-size: 24px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  ul {
+    list-style: none;
+  }
+
