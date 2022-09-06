@@ -180,7 +180,7 @@ fetch('https://swapi.dev/api/people')
     */
 
     const lista = document.getElementById("listado");
-    fetch("/data.json")
+    fetch("../data.json")
     .then(response => response.json())
     .then(productos => {
       productos.forEach(producto => {
