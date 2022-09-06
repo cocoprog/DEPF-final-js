@@ -11,7 +11,7 @@ function validarFormulario(e) {
         title: '<h2 class="sweet">MENSAJE ENVIADO!</h2>',
         confirmButtonColor: 'rgb(0, 0, 0)',
         confirmButtonText: '<h3 class="swee">SALIR</h3>',
-        imageUrl: '../img/marca.jpg',
+        imageUrl: './img/marca.jpg',
         imageWidth: 400,
         imageHeight: 400,})
 }
